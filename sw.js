@@ -1,6 +1,6 @@
 /* Service worker Jago Hitung: menyimpan aplikasi agar bisa dibuka tanpa internet.
    Naikkan VERSION setiap kali file aplikasi diubah. */
-const VERSION = 'jh-v1';
+const VERSION = 'jh-v2';
 const APP_FILES = [
   './',
   'index.html',

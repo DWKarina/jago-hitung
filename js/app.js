@@ -299,7 +299,7 @@
         : '';
       return `<div class="node-wrap" style="transform:translateX(${off}px);${openPop === n.i ? 'z-index:20' : ''}">
         ${n.i === currentIdx && openPop !== n.i ? '<div class="start-tip">MULAI</div>' : ''}
-        <button class="node ${cls}" data-act="node" data-i="${n.i}" aria-label="${esc(label)}">${ring}${inner}</button>
+        ${ring}<button class="node ${cls}" data-act="node" data-i="${n.i}" aria-label="${esc(label)}">${inner}</button>
         <div class="node-label">${esc(label)}</div>${popHTML}${mascotHTML}</div>`;
     }).join('');
     return `<div style="--sec:${sec.color};--sec-d:${sec.dark}">
